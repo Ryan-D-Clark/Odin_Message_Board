@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ryan-D-Clark/Odin_Message_Board/issues"
   },
-  "homepage": "https://github.com/Ryan-D-Clark/Odin_Message_Board#readme"
+  "homepage": "https://github.com/Ryan-D-Clark/Odin_Message_Board#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
