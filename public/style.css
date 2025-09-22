@@ -1,0 +1,140 @@
+:root{
+    --primary: #181818;
+    --secondary: #1f1f1f;
+    --borders: #2b2b2b;
+}
+
+body{
+    background-color: var(--primary);
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+#container{
+    display: flex;
+    background-color: var(--secondary);
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: 10vh auto;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid var(--borders);
+    padding: 20px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#board-title{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+#messages-container{
+    display: flex;
+    background-color: var(--primary);
+    gap: 20px;
+    width: 80%;
+    padding: 10px;
+    flex-direction: column;
+    border: 2px solid var(--borders);
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 40vh;
+    max-height: 60vh;
+}
+
+#message{
+    background-color: blue;
+    border: 2px solid var(--borders);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 80%;
+    min-width: 80%;
+}
+
+.user{
+    position: relative;
+    margin-top: 5px;
+    bottom: 1.5rem;
+    left: 1rem;
+    font-size: 0.7rem;
+}
+
+
+
+.added{
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+.link-button{
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid var(--borders);
+    padding: 5px;
+    background-color: var(--primary);
+    text-decoration: none;
+    color: #acacac;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.link-button:hover{
+    color: #ffffff;
+    background-color: var(--secondary);
+    border-color: var(--primary);
+}
+
+#form-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    min-height: 20vh;
+    background-color: var(--primary);
+    width: 80%;
+    padding: 10px;
+    flex-direction: column;
+    border: 2px solid var(--borders);
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 60vh;
+}
+
+#message-form{
+    max-width: 80%;
+    min-width: 80%;
+}
+
+input, textarea{
+    background-color: var(--secondary);
+    padding: 5px;
+    color: #ffffff;
+}
+
+.view-button{
+    display: inline-flex;
+    position: relative;
+    left: 35vw;
+    font-size: 0.7em;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #acacac;
+    border: 2px solid var(--borders);
+    padding: 5px;
+    background-color: var(--secondary);
+}
+
+.view-button:hover{
+    color: #ffffff;
+    border-color: var(--primary);
+}
+
+
+

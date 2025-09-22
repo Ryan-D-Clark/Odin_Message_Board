@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10" >
+    <title>Enter Your Message</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>  
+    <div id="container">
+        <h1>Post your message</h1>
+        <a class="link-button" href="/">Return to messages</a>
+        <div id="form-container">
+            <form method="post" action="/new">
+                <label for="author-form">Enter name</label><br>
+                <input type="text" name="authorForm" id="author-form"><br>
+                <label for="messageForm">Enter Message</label><br>
+                <textarea name="messageForm" id="message-form"></textarea><br>
+                <button class="link-button" type="submit">Submit</button>
+            </form>
+        </div>
+   </div>
+</body>
+</html>
