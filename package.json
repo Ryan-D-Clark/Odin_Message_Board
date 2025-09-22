@@ -1,0 +1,19 @@
+{
+  "name": "odin-message-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-D-Clark/Odin_Message_Board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryan-D-Clark/Odin_Message_Board/issues"
+  },
+  "homepage": "https://github.com/Ryan-D-Clark/Odin_Message_Board#readme"
+}
